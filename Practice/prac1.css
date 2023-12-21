@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.box img{
+    width: 100%;
+    height: 40%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.box p{
+    text-align: center;
+    width: 70%;
+}
+
+.plan{
+    width: 80%;
+    height: 60px;
+    background-color: lightgray;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.left{
+    display: flex;
+    gap: 15px;
+}
+.left img{
+    width:20%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.left h3{
+    font-size: 15px;
+    margin-top:5px ;
+}
+
+.right{
+    left: 100px;
+    margin-right: 20px;
+}
+
+.pay{
+    width: 80%;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(0, 0, 0, 0.668);
+    margin: 3px;
+}
+.pay a{
+    color: white;
+    text-decoration: none;
+}
+#can{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
