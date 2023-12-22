@@ -10,12 +10,15 @@
         }
         .joke{
             display: flex;
+            flex-direction: column;
+            justify-content:space-between;
             width: 100vw;
             height: 80vh;
             margin: auto;
             justify-content: center;
             align-items: center;
             background-color: aqua;
+            border: 2px solid black;
         }
 
         #Chutkula{
@@ -37,6 +40,22 @@
             justify-content: center;
             align-items: center;
             background-color: azure;
+            margin-bottom: 7vh;
+        }
+
+        #btn{
+            background-color: blue;
+            color: white;
+            font-size: 2em;
+            border-radius: 15px;
+            padding: 10px;
+            transition: 0.5ms;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            cursor: pointer;
+            box-shadow: 2px 2px 15px blue;
+        }
+        #btn:hover{
+            background-color: rgb(63, 63, 235);
         }
     </style>
 </head>
@@ -44,8 +63,10 @@
         <div class="joke">
 
             <div class="con">
-                <p id="Chutkula"></p>
+                <p id="Chutkula">Tell me a joke...</p>
             </div>
+
+            <div id="btn">GENERATE A JOKE</div>
             
         
         </div>
