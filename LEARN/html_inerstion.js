@@ -23,6 +23,15 @@ a.remove(); // also there // delete krdega
 ///////////////////////////////////////////////
 //CLASS NAME & CLASS LIST
 
+let a=document.getElementById("leo");
+a.className="red text-dark"; //use to change class of a having id leo
+
+a.classList// use to get all the classes assigned to a
+a.classList.remove("red"); // will remove class named as red from a
+a.classList.add("red"); // to add more classes
+a.classList.toggle("red");//if red class is there then it will remove it,if not there then add it
+a.classList.contains("red"); //red is present or not
+
 
 
 
