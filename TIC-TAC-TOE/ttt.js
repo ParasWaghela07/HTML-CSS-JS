@@ -54,6 +54,7 @@ Array.from(allBoxes).forEach(box=>{ // box is iterator targets every cell one by
 let resetGame=document.getElementById("reset");
 
 resetGame.addEventListener('click',function(){
+    gameover=false;
     let ajao=document.getElementsByClassName("col");
     Array.from(ajao).forEach(it=>{
     it.innerText="";
