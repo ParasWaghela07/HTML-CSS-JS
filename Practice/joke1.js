@@ -27,6 +27,8 @@ let index=-2;
     console.log(e);
     console.log(e.target);
     console.log(e.type,e.clientX,e.clientY); // where user have clicked , gives coordinates
+
+    
     r=Math.floor(Math.random()*arr.length);
     while(r==index){
         r=Math.floor(Math.random()*arr.length);
