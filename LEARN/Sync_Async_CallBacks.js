@@ -117,6 +117,11 @@ function gm(){//can also written as hello
 
 loadScript("www.xyz.com",hello);//fn name (src,callback fn name)//make sure passing a valid src coz it cause error
 
+//but such type of fn calling and giving full handle of fns wiht error suchas hello and good morning can lead to errors //coz loadScript is such vulnarable fn , to prevent such vulnerable fns 
+
+
+//if we want to load multiple scripts   by calling 1st fn only so we have to call another fn from it , so it decreases readibility due to many scripts --> pyramid of doom // callbacks in callbacks
+
 
 
 
